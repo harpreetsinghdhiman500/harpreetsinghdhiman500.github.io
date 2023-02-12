@@ -38,7 +38,7 @@ export default class Intro extends Component {
                                             </div>
                                             <div className="d-print-none">
                                                 <a className="btn btn-outline-light btn-lg shadow-sm mt-1 me-3"
-                                                    href="" onClick={() => window.print()}>Download CV</a>
+                                                    href="#" onClick={() => window.print()}>Download CV</a>
                                                 <a className="btn btn-site-org btn-lg shadow-sm mt-1" href="#contact">Hire Me</a>
                                             </div>
                                         </div>
