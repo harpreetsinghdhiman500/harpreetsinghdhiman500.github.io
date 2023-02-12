@@ -1,43 +1,39 @@
 import { Component } from "react";
+import profile from "../profile.json"
 
 export default class Contact extends Component {
     render() {
         return (
             <div className="container">
                 <div className="resume-container">
-                    <div className="shadow-1-strong bg-white my-5 p-5" id="contact">
-                        <div className="contant-section">
+                    <div className=" bg-white p-5 pb-0" id="contact">
+                        <div className="contant-section text-center">
                             <h2 className="h2 fw-light text mb-4">Contact</h2>
                             <div className="row mb-4">
-                                <div className="col-md-5">
+                                <div className="col-md-12">
                                     <div className="mt-1">
-                                        <div className="h6"><i className="fas fa-phone pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
-                                            +0718-111-0011</div>
-                                        <div className="h6"><i className="far fa-envelope pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
-                                            walter@company.com</div>
-                                    </div>
-                                    <div className="mt-5 d-print-none">
-                                        <form action="https://formspree.io/your@email.com" method="POST">
-                                            <div className="form-outline mb-4">
-                                                <input type="text" id="name" className="form-control" required />
-                                                <label className="form-label" htmlFor="name">Name</label>
-                                            </div>
-                                            <div className="form-outline mb-4">
-                                                <input type="email" id="email" className="form-control" required />
-                                                <label className="form-label" htmlFor="email">Email address</label>
-                                            </div>
-                                            <div className="form-outline mb-4">
-                                                <textarea className="form-control" id="message" rows="4" required></textarea>
-                                                <label className="form-label" htmlFor="message">Message</label>
-                                            </div>
-                                            <button className="btn btn-info btn-block mb-4" type="submit">Send</button>
-                                        </form>
+                                        <div className="h6">
+                                            <a href={`tel:${(profile.mobile).replace(" ", "")}`}>
+                                                <i className="fas fa-phone pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
+                                                {profile.mobile}
+                                            </a>
+                                        </div>
+                                        <div className="h6">
+                                            <i className="fab fa-skype pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
+                                            {profile.skype}
+                                        </div>
+                                        <div className="h6">
+                                            <a href={`mailto:${(profile.email)}`}>
+                                                <i className="far fa-envelope pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
+                                            {profile.email}
+                                            </a>
+                                        </div>
+                                        <div className="h6">
+                                            <i className="fas fa-map-marker-alt pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
+                                            {profile.address}
+                                        </div>
                                     </div>
                                 </div>
-                                {/* <div className="col-md-7 d-print-none"><iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496.9774799129763!2d-73.98032087190995!3d40.765927126473905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f9cfcb250d%3A0xdb570ddcb766e3a8!2sNew%20York%20City%20Center!5e0!3m2!1sen!2sin!4v1614183731149!5m2!1sen!2sin"
-                                    width="500" height="400" allowfullscreen="" loading="lazy"></iframe>
-                                </div> */}
                             </div>
                         </div>
                     </div>

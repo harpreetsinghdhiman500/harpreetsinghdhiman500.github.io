@@ -17,7 +17,7 @@ export default class Intro extends Component {
         return (
             <div className="container">
                 <div className="resume-container">
-                    <div className="shadow-1-strong bg-white my-5" id="intro">
+                    <div className="bg-white my-5 mb-0" id="intro">
                         <div className="bg-info text-white">
                             <div className="cover bg-image"><img src={BgCover} />
                                 <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.7)", backdropFilter: "blur(2px)" }}>
@@ -38,8 +38,8 @@ export default class Intro extends Component {
                                             </div>
                                             <div className="d-print-none">
                                                 <a className="btn btn-outline-light btn-lg shadow-sm mt-1 me-3"
-                                                    href="material-resume.pdf">Download CV</a>
-                                                <a className="btn btn-info btn-lg shadow-sm mt-1" href="#contact">Hire Me</a>
+                                                    href="" onClick={() => window.print()}>Download CV</a>
+                                                <a className="btn btn-site-org btn-lg shadow-sm mt-1" href="#contact">Hire Me</a>
                                             </div>
                                         </div>
                                     </div>

@@ -4,7 +4,7 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
-import Portfolio from "../components/Portfolio";
+import Projects from "../components/Projects";
 import References from "../components/References";
 import Contact from "../components/Contact";
 
@@ -16,8 +16,7 @@ export default function HomePage() {
             <Skills/>
             <Experience/>
             <Education/>
-            <Portfolio/>
-            <References/>
+            <Projects/>
             <Contact/>
         </>
     )

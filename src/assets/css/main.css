@@ -4,6 +4,23 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.site-title {
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: #ff9933;
+}
+
+.btn-site-org {
+  color: #fff !important;
+  background-color: #ff9933 !important;
+}
+
+.timeline-card-info:before {
+  border-color: #ff9933 !important;
+}
+
 /* Timeline custom component */
 .timeline-card {
   position: relative;

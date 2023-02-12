@@ -17,12 +17,8 @@
             "href": "#education"
         },
         {
-            "name": "Portfolio",
-            "href": "#portfolio"
-        },
-        {
-            "name": "References",
-            "href": "#references"
+            "name": "Projects",
+            "href": "#projects"
         },
         {
             "name": "Contact",
@@ -37,22 +33,130 @@
         "instagram": "instagram",
         "github": "github"
     },
-    "bio": "<p>Hello! I’m Walter Patterson. I am passionate about UI/UX design and Web Design. I am a skilled<strong>front-end developer</strong> and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done.</p><p>I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>",
+    "bio": "<p>Hello! I’m Harpreet Singh. I am passionate about Full Stack Development with 6+ years of focused experience in PHP/Vue/ReactJs applications with expertise in reviewing client requirement prioritizes requirements and baseline project plan. I am a skilled <strong>Full stack developer</strong> and master of popular PHP frameworks Laravel. I am a quick learner and a team worker that gets the job done.</p><p></p>",
     "dob": "1994-11-28",
     "email": "harpreetsinghdhiman500@gmail.com",
     "skype": "live:harpreetsinghdhiman500",
-    "mobile": "+9186848-20640",
+    "mobile": "+91 86848-20640",
     "address": "1484 Shahzadpur, Ambala, Haryana, India.",
     "skills": [
         {
+            "name": "PHP",
+            "level": "Master",
+            "precentage": 90
+        },
+        {
+            "name": "MySQL",
+            "level": "Master",
+            "precentage": 90
+        },
+        {
             "name": "Laravel",
             "level": "Master",
-            "precentage": 95
+            "precentage": 90
+        },
+        {
+            "name": "Codeigniter",
+            "level": "Master",
+            "precentage": 70
+        },
+        {
+            "name": "Cs-cart",
+            "level": "Master",
+            "precentage": 70
+        },
+        {
+            "name": "WordPress",
+            "level": "Master",
+            "precentage": 70
+        },
+        {
+            "name": "Rest API's",
+            "level": "Master",
+            "precentage": 90
+        },
+        {
+            "name": "GitFlow",
+            "level": "Master",
+            "precentage": 90
+        },
+        {
+            "name": "JavaScript",
+            "level": "Master",
+            "precentage": 80
+        },
+        {
+            "name": "HMTL",
+            "level": "Master",
+            "precentage": 69
+        },
+        {
+            "name": "CSS",
+            "level": "Master",
+            "precentage": 69
+        },
+        {
+            "name": "VueJs",
+            "level": "Master",
+            "precentage": 69
         },
         {
             "name": "ReactJs",
             "level": "Master",
             "precentage": 69
+        }
+    ],
+    "workExperience": [
+        {
+            "desination": "Software Developer",
+            "company": "Tech Prastish Software Solutions Pvt. Ltd.",
+            "from": "March, 2018",
+            "to": "Present",
+            "jobDescription": "<ul> <li>Collaborate with web design and development team to create a new website for a tech startup, assisting with coding.</li><li>Delegate objectives to team of coders to facilitate time frame and meet the common vision of the project.</li> <li>Assist design team with coding to create a user-friendly interface that is compatible across every major operating system.</li> <li>Manage user feedback and perform system checkups to ensure the functionality of the website.</li> <li>Oversee team of one junior coder and two interns.</li> </ul>"
+        },
+        {
+            "desination": "Frontend Developer",
+            "company": "Ditro Infotech",
+            "from": "October, 2016",
+            "to": "February, 2018",
+            "jobDescription": "<ul> <li>Wrote server-side and client-side code using PHP, HTML, CSS and JavaScript.</li><li>Developed back-end components to connect applications with web services.</li> <li>Designed user-facing elements to integrate with web APIs and server-side logic.</li> <li>Performed troubleshooting of technical issues within production environment.</li> <li>Regularly updated knowledge of latest industry trends in web development and related technologies.</li> </ul>"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Bachelor of Computer Science",
+            "university": "Kurukshetra University",
+            "from": "July, 2012",
+            "to": "May, 2015",
+            "description": ""
+        },
+        {
+            "degree": "Senior Secondary Education",
+            "university": "Board of School Education Haryana",
+            "from": "",
+            "to": "March, 2012",
+            "description": ""
+        },
+        {
+            "degree": "Matriculation Education",
+            "university": "Board of School Education Haryana",
+            "from": "",
+            "to": "March, 2010",
+            "description": ""
+        }
+    ],
+    "projects": [
+        {
+            "name": "Jonusta",
+            "description": "It’s an international development work marketplace where freelancers can get paid by clients & clients can find talent and the skills to take their projects forward and consistently deliver high quality work.",
+            "skills": "Laravel, MySQL, VueJs, HTML, CSS, Stripe",
+            "responsibilities":"<ul> <li>To Develop/Design as per requirement.</li> <li>Requirement gathering and analysis.</li> <li>Knowledge sharing with the team and new members.</li> <li>Bug fixes.</li> </ul>"
+        },
+        {
+            "name": "Uproster",
+            "description": "It’s a company product.",
+            "skills": "Laravel, MySQL, VueJs, HTML, CSS",
+            "responsibilities":"<ul> <li>To Develop/Design front-end using REST API’S.</li> <li>Requirement gathering and analysis.</li> <li>Knowledge sharing with the team and new members.</li> <li>Bug fixes.</li> </ul>"
         }
     ]
     

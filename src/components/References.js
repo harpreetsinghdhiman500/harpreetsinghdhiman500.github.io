@@ -7,7 +7,7 @@ export default class About extends Component {
         return (
             <div className="container">
                 <div className="resume-container">
-                    <div className="shadow-1-strong bg-white my-5 p-5" id="references">
+                    <div className=" bg-white my-5 p-5" id="references">
                         <div className="reference-section">
                             <h2 className="h2 fw-light mb-4">References</h2>
                             <div className="row">
