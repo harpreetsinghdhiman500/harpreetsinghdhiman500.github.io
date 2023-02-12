@@ -5,7 +5,7 @@ export default class Skills extends Component {
     render() {
         const skill = profile.skills.map((value, key) => {
             return (
-                <div className="col-2" key={key.toString()}>
+                <div className="col-6 col-sm-3 col-md-2" key={key.toString()}>
                     <div className="mb-3">
                         <span className="fw-bolder">{value.name}</span>
                         

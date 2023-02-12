@@ -19,14 +19,14 @@ export default class Contact extends Component {
                                             </a>
                                         </div>
                                         <div className="h6">
-                                            <i className="fab fa-skype pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
-                                            {profile.skype}
-                                        </div>
-                                        <div className="h6">
                                             <a href={`mailto:${(profile.email)}`}>
                                                 <i className="far fa-envelope pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
                                             {profile.email}
                                             </a>
+                                        </div>
+                                        <div className="h6">
+                                            <i className="fab fa-skype pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
+                                            {profile.skype}
                                         </div>
                                         <div className="h6">
                                             <i className="fas fa-map-marker-alt pe-2 text-muted" style={{width:"24px",opacity:"0.85"}}></i>
