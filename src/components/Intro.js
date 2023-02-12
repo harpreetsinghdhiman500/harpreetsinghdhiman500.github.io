@@ -29,7 +29,7 @@ export default class Intro extends Component {
                                                 <h2 className="h1">{profile.name}</h2>
                                                 <p>{profile.desination}</p>
                                             </div>
-                                            <div className="header-social mb-3 d-print-none" >
+                                            <div className="header-social mb-3 d-print-none d-none" >
                                                 <nav role="navigation">
                                                     <ul className="nav justify-content-center">
                                                         {socialLinks}

@@ -17,13 +17,6 @@ export default class Footer extends Component {
                 <div className="container">
                     <div className="my-3">
                         <div className="h4">{profile.name}</div>
-                        <div className="footer-nav">
-                            <nav role="navigation">
-                                <ul className="nav justify-content-center">
-                                    {socialLinks}
-                                </ul>
-                            </nav>
-                        </div>
                     </div>
                     <div className="text-small">
                         <div className="mb-1">&copy; {new Date().getFullYear()}. All rights reserved.</div>
